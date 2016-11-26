@@ -38,6 +38,7 @@ prompt(
     path.join('config', 'webpack.config.prod.js'),
     path.join('config', 'jest', 'CSSStub.js'),
     path.join('config', 'jest', 'FileStub.js'),
+    path.join('utils', 'resolveApp.js'),
     path.join('scripts', 'build.js'),
     path.join('scripts', 'start.js'),
     path.join('scripts', 'test.js')
