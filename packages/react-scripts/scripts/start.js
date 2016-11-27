@@ -28,8 +28,17 @@ var checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 var formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
 var openBrowser = require('react-dev-utils/openBrowser');
 var prompt = require('react-dev-utils/prompt');
-var config = require('../config/webpack.config.dev');
 var paths = require('../config/paths');
+
+var getWebpackConfig = require('../utils/getWebpackConfig');
+
+var config;
+
+config = require('../config/webpack.config.dev');
+
+// @remove-on-eject-begin
+config = getWebpackConfig('../config/webpack.config.dev');
+// @remove-on-eject-end
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
