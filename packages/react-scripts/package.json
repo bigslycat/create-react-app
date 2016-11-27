@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts",
+  "name": "react-scripts-custom",
   "version": "0.7.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": "facebookincubator/create-react-app",
@@ -20,7 +20,7 @@
     "utils"
   ],
   "bin": {
-    "react-scripts": "./bin/react-scripts.js"
+    "react-scripts-custom": "./bin/react-scripts-custom.js"
   },
   "dependencies": {
     "autoprefixer": "6.5.1",
