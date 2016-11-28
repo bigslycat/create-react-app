@@ -1,7 +1,7 @@
 {
   "name": "react-scripts-custom",
   "version": "0.7.0-beta.1",
-  "description": "Configuration and scripts for Create React App.",
+  "description": "Configuration and scripts for Create React App. Actual fork for custom settings.",
   "repository": "facebookincubator/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
